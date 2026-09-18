@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="vanillaracesexpanded.sanguophage">
+        <defName>WQG_Quirk_VRE_Sensitivity_Dangerous</defName>
+        <label>dangerous UV sensitivity</label>
+        <description>Carriers of this gene have biological compounds in their skin that react dangerously to UV radiation. They are extremely sensitive to sunlight.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VRE_Sensitivity_Dangerous</gene>
+        <invalidGenes>
+            <li>VRE_Sensitivity_Dangerous</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

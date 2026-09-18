@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="Rimsenal.Harana">
+        <defName>WQG_Quirk_Aggression_PassivelyAggressive</defName>
+        <label>passive-aggressive</label>
+        <description>Carriers of this gene are quick to anger, but tend to express it in more passive ways. They are 50% more likely to start social fights.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Aggression_PassivelyAggressive</gene>
+        <invalidGenes>
+            <li>Aggression_PassivelyAggressive</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

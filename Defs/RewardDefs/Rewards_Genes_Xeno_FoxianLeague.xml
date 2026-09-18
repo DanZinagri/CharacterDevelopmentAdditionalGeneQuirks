@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="foxian.league.raider">
+        <defName>WQG_Quirk_FL_Emotionally_Brittle</defName>
+        <label>emotionally brittle</label>
+        <description>Carriers of this gene are much more susceptible to breaking under pressure, and they will spend much more time in mental breakdowns than the average person.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>FL_Emotionally_Brittle</gene>
+        <invalidGenes>
+            <li>FL_Emotionally_Brittle</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="foxian.league.raider">
+        <defName>WQG_Quirk_FL_Immaculate</defName>
+        <label>immaculate</label>
+        <description>Carriers of this gene produce less filth than the average person.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>FL_Immaculate</gene>
+        <invalidGenes>
+            <li>FL_Immaculate</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="foxian.league.raider">
+        <defName>WQG_Quirk_FL_Reserved</defName>
+        <label>reserved</label>
+        <description>Carriers of this gene keep their problems to themselves rather than discussing their issues with someone else.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>FL_Reserved</gene>
+        <invalidGenes>
+            <li>FL_Reserved</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

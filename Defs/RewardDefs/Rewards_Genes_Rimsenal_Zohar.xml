@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="Rimsenal.Zohar">
+        <defName>WQG_Quirk_Gene_SensitiveStomach</defName>
+        <label>sensitive stomach</label>
+        <description>Carriers of this gene have sensitive stomachs and are prone to food poisoning.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Gene_SensitiveStomach</gene>
+        <invalidGenes>
+            <li>Gene_SensitiveStomach</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

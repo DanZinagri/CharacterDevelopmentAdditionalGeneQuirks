@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="tug.minotaur">
+        <defName>WQG_Quirk_RBM_BovineVoice</defName>
+        <label>bovine voice</label>
+        <description>Carriers of this gene have a cow-like voice, mooing when they are happy and huffing through their nostrils when they are mad.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>RBM_BovineVoice</gene>
+        <invalidGenes>
+            <li>RBM_BovineVoice</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="tug.minotaur">
+        <defName>WQG_Quirk_RBM_RuminantStomach</defName>
+        <label>ruminant stomach</label>
+        <description>Carriers of this gene are born with large and hardy digestive systems, allowing them to eat hay. They will eat hay when there are no fine meals around, however, they require a lot more food to feel full.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>RBM_RuminantStomach</gene>
+        <invalidGenes>
+            <li>RBM_RuminantStomach</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="tug.minotaur">
+        <defName>WQG_Quirk_RBM_UnguligradeLegs</defName>
+        <label>unguligrade legs</label>
+        <description>Carriers of this gene are born with sturdy legs and cloven hooves. The fur on their legs extends up to their stomachs and covers their groin.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>RBM_UnguligradeLegs</gene>
+        <invalidGenes>
+            <li>RBM_UnguligradeLegs</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="tug.minotaur">
+        <defName>WQG_Quirk_RBM_EstrousCycle</defName>
+        <label>estrous cycle</label>
+        <description>Carriers of this gene go into heat during Aprimay. While in heat, they will crave lovin' more than usual at the cost of having intense mood swings.\n\nPawns that are permanently sterilized or pregnant will not go into heat.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>RBM_EstrousCycle</gene>
+        <invalidGenes>
+            <li>RBM_EstrousCycle</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

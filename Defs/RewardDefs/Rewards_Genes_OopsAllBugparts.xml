@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="vera.bug">
+        <defName>WQG_Quirk_Moth_floof_HairClr</defName>
+        <label>Neck Fluff</label>
+        <description>Carriers of this gene have a floofy mane of neck fluff. Moth approved!\n\nThis version is colored the same as the Carrier's hair.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Moth_floof_HairClr</gene>
+        <invalidGenes>
+            <li>Moth_floof_HairClr</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

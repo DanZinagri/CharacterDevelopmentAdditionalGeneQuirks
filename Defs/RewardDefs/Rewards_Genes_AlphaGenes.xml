@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_BandwidthIncrease</defName>
+        <label>enhanced bandwidth</label>
+        <description>The carrier of this gene will have an innate increased bandwidth.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_BandwidthIncrease</gene>
+        <invalidGenes>
+            <li>AG_BandwidthIncrease</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+        <minimumTechLevel>Spacer</minimumTechLevel>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_BandwidthIncreaseMajor</defName>
+        <label>greatly enhanced bandwidth</label>
+        <description>The carrier of this gene will have a 35% increased bandwidth. The effect is multiplicative, so it will be less significant at first, but increase as the mechanitor gets more bandwidth.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_BandwidthIncreaseMajor</gene>
+        <invalidGenes>
+            <li>AG_BandwidthIncreaseMajor</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+        <minimumTechLevel>Spacer</minimumTechLevel>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_IncreasedCommandRange</defName>
+        <label>increased command range</label>
+        <description>The carrier of this gene will have an innate increased command range to draft mechanoids and control them around.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_IncreasedCommandRange</gene>
+        <invalidGenes>
+            <li>AG_IncreasedCommandRange</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+        <minimumTechLevel>Spacer</minimumTechLevel>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_IncreasedMechRepair</defName>
+        <label>increased fix speed</label>
+        <description>The carrier of this gene will have an innate fix speed bonus when repairing mechanoids.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_IncreasedMechRepair</gene>
+        <invalidGenes>
+            <li>AG_IncreasedMechRepair</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+        <minimumTechLevel>Spacer</minimumTechLevel>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_DangerousRaidPresence</defName>
+        <label>dangerous raid presence</label>
+        <description>Carriers of this gene are considered very powerful when it comes to raids. Raiders will consider them a huge threat when preparing to raid the colony, sending more raiders to attack.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_DangerousRaidPresence</gene>
+        <invalidGenes>
+            <li>AG_DangerousRaidPresence</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_ReducedRaidPresence</defName>
+        <label>reduced raid presence</label>
+        <description>Carriers of this gene are considered less powerful when it comes to raids. Raiders will not consider them a huge threat when preparing to raid the colony, sending less raiders to attack.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_ReducedRaidPresence</gene>
+        <invalidGenes>
+            <li>AG_ReducedRaidPresence</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_RatVomit</defName>
+        <label>rat vomit</label>
+        <description>Carriers of this gene will vomit clumps of mechanites that coalesce into pseudo-organic rats. This is such an incredibly cruel and disgusting thing that it's not clear if it's the result of a genetic experiment gone horribly wrong, or just a macabre prank by a truly unethical geneticist.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_RatVomit</gene>
+        <invalidGenes>
+            <li>AG_RatVomit</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_PackMule</defName>
+        <label>pack mule</label>
+        <description>Carriers of this gene can carry obscene amounts of stuff before feeling encumbered.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_PackMule</gene>
+        <invalidGenes>
+            <li>AG_PackMule</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_ForsakenKnowledge</defName>
+        <label>forsaken knowledge</label>
+        <description>Carriers of this gene have genetic knowledge related to Forsaken techniques and equipment. They will be able to build Forsaken structures and wear Forsaken apparel and armors.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_ForsakenKnowledge</gene>
+        <invalidGenes>
+            <li>AG_ForsakenKnowledge</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+        <minimumTechLevel>Spacer</minimumTechLevel>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_Sensitivity_Vicious</defName>
+        <label>vicious UV sensitivity</label>
+        <description>Carriers of this gene have biological compounds in their skin that react viciously to UV radiation. They are so sensitive to sunlight that standing under the sun will knock them unconscious.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_Sensitivity_Vicious</gene>
+        <invalidGenes>
+            <li>AG_Sensitivity_Vicious</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_MiningYield_High</defName>
+        <label>high mining yield</label>
+        <description>Carriers of this gene are adept at mining and can acquire larger amounts of minerals from stone.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_MiningYield_High</gene>
+        <invalidGenes>
+            <li>AG_MiningYield_High</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="sarg.alphagenes">
+        <defName>WQG_Quirk_AG_MiningYield_Low</defName>
+        <label>low mining yield</label>
+        <description>Carriers of this gene are shoddy miners and can produce fewer amounts of minerals from stone.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>AG_MiningYield_Low</gene>
+        <invalidGenes>
+            <li>AG_MiningYield_Low</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

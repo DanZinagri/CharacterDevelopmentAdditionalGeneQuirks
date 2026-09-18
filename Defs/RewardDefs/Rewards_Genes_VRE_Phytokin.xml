@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="vanillaracesexpanded.phytokin">
+        <defName>WQG_Quirk_VRE_Photosynthesis</defName>
+        <label>photosynthesis</label>
+        <description>Carriers of this gene are capable of converting light energy into chemical energy due to the special genetic composition of their skin. They do not become hungry if exposed to sunlight.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VRE_Photosynthesis</gene>
+        <invalidGenes>
+            <li>VRE_Photosynthesis</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="vanillaracesexpanded.phytokin">
+        <defName>WQG_Quirk_VRE_FoliageHair</defName>
+        <label>foliage hair</label>
+        <description>Carriers of this gene have natural-looking, leafy hair.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VRE_FoliageHair</gene>
+        <invalidGenes>
+            <li>VRE_FoliageHair</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

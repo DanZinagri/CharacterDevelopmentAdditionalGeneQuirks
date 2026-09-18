@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_AutoPregnancyArchite</defName>
+        <label>Archite Pregnancy</label>
+        <description>Carriers of this gene will periodically auto-impregnate.\n\nOffspring will fairly often materialize genes from unknown sources.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_AutoPregnancyArchite</gene>
+        <invalidGenes>
+            <li>BS_AutoPregnancyArchite</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_ColdGenerator</defName>
+        <label>cryo-generator</label>
+        <description>Carriers of this gene will dramatically cool down their environment. They are also immune to frostbite and extremely low temperatures. Not flammable, but takes increased damage from direct heat damage. Somewhat affected by BodySize.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_ColdGenerator</gene>
+        <invalidGenes>
+            <li>BS_ColdGenerator</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_HeatGenerator</defName>
+        <label>living furnace</label>
+        <description>Carriers of this gene will heat up their environment. They are also fire-proof and tolerant to extremely high temperatures. While somewhat tolerate low ambient temperatures, they are highly vulnerable to frostbite. Somewhat affected by BodySize.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_HeatGenerator</gene>
+        <invalidGenes>
+            <li>BS_HeatGenerator</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_TitanFrame</defName>
+        <label>Titan Frame</label>
+        <description>Carriers of this gene grow to an absurd size made possible only with Archite technology. Too large to properly make use of power-armor and exoskeletons the bodies of Titans were instead hollowed out and filled with bionic systems, their massive frames were also supported by huge amounts of a Luciferium-like drug and glittertech energy cores.\n\nNuclear Stomach and the like are advised.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>TitanFrame</gene>
+        <invalidGenes>
+            <li>TitanFrame</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_EndlessGrowth</defName>
+        <label>Endless Growth</label>
+        <description>Carriers of this gene grow to an absurd size</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_EndlessGrowth</gene>
+        <invalidGenes>
+            <li>BS_EndlessGrowth</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_AriettyFrame</defName>
+        <label>Illegally Smol Frame</label>
+        <description>Carriers of this gene are itty bitty tiny, like unreasonably smol. So diminutive that an archotech was involved in their creation.\n\nArchotech involvement is probably also why their abilities are unreasonably great for their size.\n\nAdded by popular request. Probably not terribly well-balanced. Combine with something like "small people toughness" unless you want a stiff breeze to kill them.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_AriettyFrame</gene>
+        <invalidGenes>
+            <li>BS_AriettyFrame</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_LargeFrame</defName>
+        <label>Large Frame</label>
+        <description>Carriers of this gene grow larger than baseline humans. Comparable in size to a baseliner with gigantism but without the health issues.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_LargeFrame</gene>
+        <invalidGenes>
+            <li>BS_LargeFrame</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_SmallFrame</defName>
+        <label>Small Frame</label>
+        <description>Adults carriers of this gene are barely taller than children, but very quick for their size.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_SmallFrame</gene>
+        <invalidGenes>
+            <li>BS_SmallFrame</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_Gigantism</defName>
+        <label>Gigantism</label>
+        <description>Carriers of this gene have genetic gigantism</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Gigantism</gene>
+        <invalidGenes>
+            <li>Gigantism</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_Cannibal</defName>
+        <label>Cannibal</label>
+        <description>Carriers of this gene have a violent cannibalistic streak.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Cannibal</gene>
+        <invalidGenes>
+            <li>Cannibal</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_Diet_Carnivore</defName>
+        <label>Carnivore</label>
+        <description>Carriers of this gene can only eat carnivore food. They will not automatically eat vegetarian food, and will vomit if they are forced.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_Diet_Carnivore</gene>
+        <invalidGenes>
+            <li>BS_Diet_Carnivore</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_Diet_Herbivore</defName>
+        <label>Herbivore</label>
+        <description>Carriers of this gene can only eat vegetarian food. They will not automatically eat carnivore food, and will vomit if they are forced.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_Diet_Herbivore</gene>
+        <invalidGenes>
+            <li>BS_Diet_Herbivore</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_Diet_Universal</defName>
+        <label>universal digestion</label>
+        <description>Carriers of this gene can eat most types of food, including some varieties of chemfuel.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_Diet_Universal</gene>
+        <invalidGenes>
+            <li>BS_Diet_Universal</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_Body_Androgynous</defName>
+        <label>Androgynous</label>
+        <description>Carriers of this gene tend to appear what can be percieved femenine-androgynous. A person can have more than one body type gene; one body type will be chosen among those that are allowed.\n\nNote that some mods will unfortunately override this, in which case you may need to use the Character Editor to "fix" it.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>Body_Androgynous</gene>
+        <invalidGenes>
+            <li>Body_Androgynous</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_DrunkenPower</defName>
+        <label>drunken might</label>
+        <description>Carriers of this gene are amazingly strong and durable, but only while intoxicated with alcohol. The effect is even greater if the carrier is properly drunk.\n\nThe carrier of the gene will have higher conciousness while drunk as well, but not to the degree that a non-inebriated individual would.\n\nThis gene DOES stack with robust and strong melee damage. Oh my.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_DrunkenPower</gene>
+        <invalidGenes>
+            <li>BS_DrunkenPower</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_VU_NearSterile</defName>
+        <label>almost sterile</label>
+        <description>Carriers of this gene are almost incapable of reproducing by natural means.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VU_NearSterile</gene>
+        <invalidGenes>
+            <li>VU_NearSterile</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_EverFertile</defName>
+        <label>ever fertile</label>
+        <description>Carriers of this gene do not lose fertility with age.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_EverFertile</gene>
+        <invalidGenes>
+            <li>BS_EverFertile</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_AnimalFriend</defName>
+        <label>Animal Friend</label>
+        <description>Carriers of this gene will never be targeted by hungry predators.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_AnimalFriend</gene>
+        <invalidGenes>
+            <li>BS_AnimalFriend</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_GiantWeaponWielder</defName>
+        <label>Giant Weapon Wielder</label>
+        <description>Carriers of this gene are capable of wielding giant weapons even if they would otherwise be too small.</description>
+        <rarity>Legendary</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_GiantWeaponWielder</gene>
+        <invalidGenes>
+            <li>BS_GiantWeaponWielder</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_Unpretentious</defName>
+        <label>unpretentious</label>
+        <description>Carriers of this gene aren't bothered by rough appearances or a bit of rough living. This also overwrites a large number of conflicting traits.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_Unpretentious</gene>
+        <invalidGenes>
+            <li>BS_Unpretentious</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_Abrasive</defName>
+        <label>Abrasive</label>
+        <description>Carriers of this gene make frequent rude remarks that test the patience of everyone around them.\n\nArt by Oskar. Ask him why this has the art of a goomba :'D.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_Abrasive</gene>
+        <invalidGenes>
+            <li>BS_Abrasive</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_PerfectMemory</defName>
+        <label>eidetic memory</label>
+        <description>Carriers of this gene have perfect memory</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_PerfectMemory</gene>
+        <invalidGenes>
+            <li>BS_PerfectMemory</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="RedMattis.BigSmall.Core">
+        <defName>WQG_Quirk_BS_FurryBody</defName>
+        <label>furry body</label>
+        <description>Carriers of this gene have a furry body. This does not affect the head.</description>
+        <rarity>Common</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>BS_FurryBody</gene>
+        <invalidGenes>
+            <li>BS_FurryBody</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+</Defs>

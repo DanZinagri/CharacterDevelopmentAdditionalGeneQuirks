@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="vanillaracesexpanded.pigskin">
+        <defName>WQG_Quirk_VRE_ExtraMeat</defName>
+        <label>extra meat</label>
+        <description>Carriers of this gene have much more dense meat and fat tissue, resulting in greater meat yield when butchered.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VRE_ExtraMeat</gene>
+        <invalidGenes>
+            <li>VRE_ExtraMeat</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="vanillaracesexpanded.pigskin">
+        <defName>WQG_Quirk_VRE_Gluttonous</defName>
+        <label>Gluttonous</label>
+        <description>Carriers of this gene have elastic, bottomless stomachs and are capable of consuming twice as much food.\n\nThey will become increasingly unhappy if hungry, and most mental breaks will be food binges.</description>
+        <rarity>Rare</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>VRE_Gluttonous</gene>
+        <invalidGenes>
+            <li>VRE_Gluttonous</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>

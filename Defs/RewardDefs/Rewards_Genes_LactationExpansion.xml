@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WantsAndQuirks.RewardDef MayRequire="euterpe.milkytitfuck">
+        <defName>WQG_Quirk_SEX_MoreMilk</defName>
+        <label>milky</label>
+        <description>Carriers of this gene can produce and store twice as much milk when lactating.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>SEX_MoreMilk</gene>
+        <invalidGenes>
+            <li>SEX_MoreMilk</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+    <WantsAndQuirks.RewardDef MayRequire="euterpe.milkytitfuck">
+        <defName>WQG_Quirk_SEX_AlwaysLactating</defName>
+        <label>wet nurse</label>
+        <description>Carriers of this gene will always lactate.</description>
+        <rarity>Uncommon</rarity>
+        <isQuirk>true</isQuirk>
+        <gene>SEX_AlwaysLactating</gene>
+        <invalidGenes>
+            <li>SEX_AlwaysLactating</li>
+        </invalidGenes>
+        <workerClass>WantsAndQuirks.RewardWorker_GeneQuirk</workerClass>
+    </WantsAndQuirks.RewardDef>
+
+</Defs>
